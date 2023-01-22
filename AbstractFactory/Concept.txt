@@ -1,0 +1,12 @@
+- the level of a game is re-used
+- what is changing is the appearance 
+- enemies come in different shapes and stenghts
+
+
+
+	----O----
+	|	|	----U--
+--------	|	|
+		---X----
+
+
