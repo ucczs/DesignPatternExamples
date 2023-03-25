@@ -1,0 +1,16 @@
+Context -------> Strategy ABC
+                    |
+        |-----------|-----------|
+        |           |           |
+        |           |           |
+        |           |           |
+  ConcretStrategy1  |    ConcretStrategy3
+             ConcretStrategy2
+
+
+Example:
+Strategy: Distance calculation
+Context:
+    o Collision warner uses a algorightm to calculate the Distance
+    o alogrithm is a member of collision warner class of type CDistanceAlgorithm (abstract class)
+    o based on number of objects in map it is decided which algorithm to use by changing the member of collision warner via set function
