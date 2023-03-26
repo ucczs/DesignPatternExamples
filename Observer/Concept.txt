@@ -1,0 +1,9 @@
+Observer Pattern:
+- realization of the publish-subscribe principle
+- observer:
+    o interface defined by abstract class
+    o abstract class provides an update function
+    o observers need to subscribe to the publisher
+- publisher:
+    o maintains a list of observers
+    o via notify function all observers are updated
